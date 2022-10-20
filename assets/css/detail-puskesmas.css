@@ -1,0 +1,22 @@
+#detailPuskesmas {
+    height: 60vh;
+}
+#detailPuskesmas .title{
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+#detailPuskesmas table{
+    font-size: 18px;
+}
+#detailPuskesmas th{
+    text-align: right;
+    color: #787878;
+}
+#detailPuskesmas td{
+    color: #181818;
+    padding: 30px;
+}
+
+#detailPuskesmas {
+    
+}

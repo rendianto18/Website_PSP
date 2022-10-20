@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+body{
+    background: linear-gradient(to left, #778899, #778899);
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+/* DASHBOARD */
+.dashboard{
+    margin-top: 60px;
+    background-color: white;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    padding: 45px;
+}
+
+h2{
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+#admin .buttonNavigator a{
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    border-radius: 0;
+}
+
+#admin .buttonNavigator .homeButton{
+    width: 110px;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    border-left: #62707e 1px solid;
+    /* background-color: #778899; */
+    color: #000000b0;
+}
+#admin .homeButton:hover{
+    background-color: #62707e;
+    color: white;
+    font-weight: 400;
+    transition: 0.4s ease-in-out;
+}
+
+#admin .tambahdataButton{
+    color: white;
+    /* background-color: #00CA80; */
+    color: #00CA80;
+    font-weight: 700;
+    border-right: #00CA80 1px solid;
+}
+#admin .tambahdataButton:hover{
+    color: white;
+    background-color: #00CA80;
+    /* font-weight: 400; */
+    transition: 0.4s ease-in-out;
+    
+}
+
+#admin .actionImage{
+    height: 25px;
+}
+
+/* EDIT DATA */
+#editData form{
+    padding-inline: 100px;
+    margin-bottom: 0;
+}
+
+#editData label{
+    font-weight: bold;
+}
+
+#editData .btn{
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+
+/* ADD DATA */
+#addData form{
+    padding-inline: 100px;
+    margin-bottom: 0;
+}
+
+#addData label{
+    font-weight: bold;
+}
+#addData .btn{
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#addData h2{
+    
+}
